@@ -104,5 +104,5 @@ https://github.com/user-attachments/assets/525930ec-3cda-4a96-bed7-509f612b8ea0
 
 ## Snowflake Results after Data Load
 
-![Results](n8n-mongo2snow-pipeline/images/Snowflake_results.png)
+![Results](images/Snowflake_results.png)
 
