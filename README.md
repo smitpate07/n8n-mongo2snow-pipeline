@@ -45,7 +45,7 @@ This ensures data is consistently available for analytics, reporting, and downst
 
 ## 📊 Workflow Overview (n8n)
 
-![Pipeline Overview](n8n-mongo2snow-pipeline/images/Workflow.png)
+![Pipeline Overview](images/Workflow.png)
 
 This pipeline is built in **n8n** to move data from **MongoDB → transforms it → Snowflake**.  
 
@@ -65,14 +65,14 @@ This pipeline is built in **n8n** to move data from **MongoDB → transforms it 
 - Fetches documents based on a query or filter.
 - Acts as the **Extract** step in ETL.
 
-![Find Node](n8n-mongo2snow-pipeline\images\Find_Documents.png)
+![Find Node](images/Find_Documents.png)
 
 ---
 
 ### 3️⃣ Split Out
 - Splits the retrieved documents containing JSON array into individual records.
 
-![Split Node](n8n-mongo2snow-pipeline/images/SplitOut.png)
+![Split Node](images/SplitOut.png)
 
 ---
 
@@ -81,7 +81,7 @@ This pipeline is built in **n8n** to move data from **MongoDB → transforms it 
 - Allows renaming, restructuring, or dropping unwanted fields.
 - Acts as the **Transform** step in ETL. 
 
-![Edit Fields Node](n8n-mongo2snow-pipeline/images/Edit_Fields.png)
+![Edit Fields Node](images/Edit_Fields.png)
 
 ---
 
@@ -90,14 +90,15 @@ This pipeline is built in **n8n** to move data from **MongoDB → transforms it 
 - Ensures data is stored in structured tables.
 - Acts as the **Load** step in ETL.
 
-![Snowflake Node](n8n-mongo2snow-pipeline/images/Snowflake.png)
+![Snowflake Node](images/Snowflake.png)
 
 ---
 
 ## 🎥 Demo Video
 Watch the full n8n workflow execution here:  
 
-[![Watch the video]
+https://github.com/user-attachments/assets/525930ec-3cda-4a96-bed7-509f612b8ea0
+
 
 ---
 
